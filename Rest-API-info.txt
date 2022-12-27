@@ -1,0 +1,25 @@
+1]  This API  Are Use To Register User :
+
+POST - http://localhost/php-auth-api/register.php
+Payload (JSON)
+{
+    "name":"KunalTajane",
+    "email":"Kunaltajane@gmail.com",
+    "password":"123456789"
+}
+
+2] This API  Are Use To Login User :
+
+POST - http://localhost/php-auth-api/login.php
+Payload (JSON)
+{
+    "email":"Kunaltajane@gmail.com",
+    "password":"123456789"
+}
+
+3] This API  Are Use To  User Info :
+
+GET - http://localhost/php-auth-api/getUser.php
+Payload (Header)
+Authorization - Bearer Token
+
